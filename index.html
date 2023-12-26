@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html land="en">
+
+<head>
+  <title>CatPhotoApp</title>
+</head>
+
+<body>
+  <h1>CatPhotoApp</h1>
+  <main>
+    <h3>Cat Photo </h3>
+    <!-- TODO: ADD Link to cat photo -->
+    <p>Click Here to view <a href="#" target="_blank">cat photos</a></p>
+    <a href="#"><img
+        src="https://media.istockphoto.com/id/1412242969/photo/close-up-cute-cat-and-golden-retriever-dog-chilling-and-sleeping-together-on-dog-bed.jpg?s=612x612&w=is&k=20&c=HPDMl9onHV6SeYAX_Udg8lafU2X1x7O_Q5PUN-snUDM="
+        alt="A Cute orange Cat lying on its back."></a>
+    <h3>Cat Lists</h3>
+    <div class="lists">
+      <p>Things Cat <em>loves</em>:</p>
+      <ul>
+        <li>Cat nip</li>
+        <li>laser pointers </li>
+        <li>lasagna</li>
+      </ul>
+      <img src="https://cdn.freecodecamp.org/youtube/html-course/lasagna.jpg" alt="Lasagna">
+      <ol>
+        <li>flea treatment</li>
+        <li>thunder</li>
+        <li>other cats</li>
+      </ol>
+    </div>
+    <img src="https://cdn.freecodecamp.org/youtube/html-course/cats.jpg" alt="cats">
+    <form action="/submit-cat-photo">
+      <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor" checked>Indoor</label><br>
+
+      <label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor">Outdoor</label><br>
+
+      <label for="loving"><input id="loving" type="checkbox" name="personality" checked> Loving </label><br>
+      <label for="lazy"><input id="lazy" type="checkbox" name="personality"> lazy </label><br>
+      <label for="energetic"><input id="energetic" type="checkbox" name="personality"> Energetic </label><br>
+
+      <input type="text" placeholder="cat photo URL" required><br>
+      <button type="submit">Submit</button>
+    </form>
+  </main>
+  <footer>
+    <p><small>No CopyRight - <a href="https://freecodecamp.org">FreeCodeCamp.org</a></small>
+    </p>
+  </footer>
+</body>
+
+</html>
